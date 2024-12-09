@@ -1,0 +1,30 @@
+
+/********** App layout **********/
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/***** Main Content *****/
+.main-content {
+  flex: 1;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+  width: 100%;
+  background-color: var(--color-main-background);
+  display: grid;
+  place-items: center;
+}
+
+/***** Section Headers *****/
+h2 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+h3 {
+  font-size: var(--font-size-large);
+  margin-bottom: var(--spacing-sm);
+}

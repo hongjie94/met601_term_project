@@ -1,0 +1,103 @@
+/********** Home Page Styles **********/
+.landing-container {
+  display: grid;
+  place-items: center;
+  flex: 1;
+  margin: 0 auto;
+}
+
+.content-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.content-text {
+  color: var(--color-border);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
+
+.content-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.content-text h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.content-text p {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+}
+.content-text .about-me {
+ width: 100%;
+ justify-content: center;
+ display: flex;
+}
+
+.social-links {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.social-links .link {
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-links .link:hover {
+  color: var(--color-background);
+  transform: scale(1.25);
+}
+.canvas {
+  width: 100%;
+  background-color:#4b5563;
+  border-radius: 8px;
+  height: 500px;
+}
+
+/********** Responsive Breakpoints **********/
+@media (max-width: 768px) {
+  
+  .canvas {
+    height: 350px;
+  }
+  .content-text h1 {
+    font-size: 2.5rem;
+  }
+  
+  .content-text h2 {
+    font-size: 1.5rem;
+  }
+  
+  .content-text p {
+    font-size: 1.1rem;
+    padding: 0 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content-text h1 {
+    font-size: 2rem;
+  }
+  
+  .content-text h2 {
+    font-size: 1.25rem;
+  }
+  
+  .content-text p {
+    font-size: 1rem;
+  }
+  
+  .social-links {
+    gap: 1rem;
+  }
+}

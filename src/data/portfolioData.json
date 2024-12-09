@@ -1,0 +1,84 @@
+{
+  "landing": {
+    "name": "Hongjie Zhang",
+    "title": "Full Stack Developer & Problem Solver",
+    "description": "Crafting elegant solutions through code. Specialized in building scalable web applications that make a difference.",
+    "social": {
+      "github": "https://github.com/hongjie94",
+      "linkedin": "https://www.linkedin.com/in/hongjiez",
+      "email": "hong.zhang94@gmail.com"
+    },
+    "canvas": {
+      "particleCount": 50,
+      "particleColor": "#8c8d8f",
+      "fadeEffect": "rgba(0, 0, 0, 0.05)"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "image": "./profile.png",
+    "description": "Hello! I'm a passionate web developer with expertise in modern web technologies. I create responsive, user-friendly websites using various technologies and am always eager to learn and explore new tools to improve my skills."
+  },
+  "skills": {
+    "title": "Skills Learned",
+    "items": [
+      {
+        "title": "HTML5",
+        "desc": "Semantic markup, Accessibility, SEO best practices"
+      },
+      {
+        "title": "CSS3",
+        "desc": "Flexbox, Grid, Animations, Responsive design"
+      },
+      {
+        "title": "JavaScript",
+        "desc": "ES6+, DOM manipulation, Async/Await"
+      },
+      {
+        "title": "React",
+        "desc": "Hooks, Context API, State management"
+      }
+    ]
+  },
+  "assignments": {
+    "title": "Weekly Assignments",
+    "items": [
+      {
+        "title": "Week 1 - Interactive Web Form with JavaScript",
+        "desc": "An interactive web form that performs real-time validation using HTML, CSS, and JavaScript, incorporating various input types and providing immediate user feedback through DOM manipulation.",
+        "code":"",
+        "webUrl":"https://hongjiezhang.com/week1/"
+      },
+      {
+        "title": "Week 2 - Asynchronous Web App Development",
+        "desc": "A dynamic web application that manages custom JSON data with drag-and-drop functionality. Demonstrates modern web development practices by combining data management, API interactions, and interactive user interfaces.",
+        "code":"",
+        "webUrl":"https://hongjiezhang.com/week2/"
+      },
+      {
+        "title": "Week 3 - Portfolio",
+        "desc": "A portfolio website that showcases advanced CSS techniques, including Flexbox and Grid layouts, while implementing sophisticated styling through pseudo-classes, pseudo-elements, and combinators to achieve a responsive and visually appealing design.",
+        "code":"",
+        "webUrl":"https://hongjiezhang.com/week3/"
+      },
+      {
+        "title": "Week 4 - Country Management System with TypeScript",
+        "desc": "A TypeScript application that manages and filters country information using object-oriented programming concepts, demonstrating TypeScript's type safety features through interfaces, classes, and type predicates.",
+        "code":"",
+        "webUrl":"https://hongjiezhang.com/week4/"
+      },
+      {
+        "title": "Week 5 - Inventory Management Application",
+        "desc": "A React-based inventory management application for a store that displays product details (SKU, name, quantity, and price) along with store branding.",
+        "code":"",
+        "webUrl":""
+      },
+      {
+        "title": "Week 6 - Inventory Management Application (Update)",
+        "desc": "An enhancement to the Week 5's assignments by adding detailed product pages with comprehensive information, images, and dynamic routing capabilities via React Router.",
+        "code":"",
+        "webUrl":""
+      }
+    ]
+  }
+}
