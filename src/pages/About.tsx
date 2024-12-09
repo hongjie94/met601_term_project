@@ -38,12 +38,12 @@ const About = () => {
             <p>{assignment.desc}</p>
             
             <div className="card-actions">
-              <a href="#" className="action-link">
+              <a href={assignment.code} target="_blank" className="action-link">
                 <Code2 size={20} />
                 <span>Code</span>
               </a>
               
-              <a href="#" className="action-link">
+              <a href={assignment.webUrl} target="_blank" className="action-link">
                 <Eye size={20} />
                 <span>View</span>
               </a>

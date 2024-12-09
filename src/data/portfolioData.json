@@ -46,38 +46,38 @@
       {
         "title": "Week 1 - Interactive Web Form with JavaScript",
         "desc": "An interactive web form that performs real-time validation using HTML, CSS, and JavaScript, incorporating various input types and providing immediate user feedback through DOM manipulation.",
-        "code":"",
+        "code":"https://github.com/hongjie94/met601_term_project/tree/main/assignments/CS601_HW1_Zhang",
         "webUrl":"https://hongjiezhang.com/week1/"
       },
       {
         "title": "Week 2 - Asynchronous Web App Development",
         "desc": "A dynamic web application that manages custom JSON data with drag-and-drop functionality. Demonstrates modern web development practices by combining data management, API interactions, and interactive user interfaces.",
-        "code":"",
+        "code":"https://github.com/hongjie94/met601_term_project/tree/main/assignments/CS601_HW2_ZHANG",
         "webUrl":"https://hongjiezhang.com/week2/"
       },
       {
         "title": "Week 3 - Portfolio",
         "desc": "A portfolio website that showcases advanced CSS techniques, including Flexbox and Grid layouts, while implementing sophisticated styling through pseudo-classes, pseudo-elements, and combinators to achieve a responsive and visually appealing design.",
-        "code":"",
+        "code":"https://github.com/hongjie94/met601_term_project/tree/main/assignments/CS601_HW3_ZHANG",
         "webUrl":"https://hongjiezhang.com/week3/"
       },
       {
         "title": "Week 4 - Country Management System with TypeScript",
         "desc": "A TypeScript application that manages and filters country information using object-oriented programming concepts, demonstrating TypeScript's type safety features through interfaces, classes, and type predicates.",
-        "code":"",
+        "code":"https://github.com/hongjie94/met601_term_project/tree/main/assignments/CS601_HW4_ZHANG",
         "webUrl":"https://hongjiezhang.com/week4/"
       },
       {
         "title": "Week 5 - Inventory Management Application",
         "desc": "A React-based inventory management application for a store that displays product details (SKU, name, quantity, and price) along with store branding.",
-        "code":"",
-        "webUrl":""
+        "code":"https://github.com/hongjie94/met601_term_project/tree/main/assignments/CS601_HW5_ZHANG",
+        "webUrl":"https://hongjiezhang.com/week5/"
       },
       {
         "title": "Week 6 - Inventory Management Application (Update)",
         "desc": "An enhancement to the Week 5's assignments by adding detailed product pages with comprehensive information, images, and dynamic routing capabilities via React Router.",
-        "code":"",
-        "webUrl":""
+        "code":"https://github.com/hongjie94/met601_term_project/tree/main/assignments/CS601_HW6_ZHANG",
+        "webUrl":"https://hongjiezhang.com/week6/"
       }
     ]
   }
