@@ -1,0 +1,60 @@
+{
+  "items": [
+    {
+      "SKU": "TECH001",
+      "name": "MacBook Pro 14-inch",
+      "description": "Professional-grade laptop featuring Apple's M-series chip, stunning Liquid Retina XDR display, and up to 18 hours of battery life. Perfect for creative professionals and power users.",
+      "qty": 25,
+      "price": 1299.99,
+      "image": "/img/t001.png"
+    },
+    {
+      "SKU": "TECH002",
+      "name": "iPhone 16 Pro",
+      "description": "Latest flagship iPhone with ProMotion display, advanced camera system, and powerful A-series chip. Features improved photography capabilities and enhanced AR experiences.",
+      "qty": 50,
+      "price": 999.99,
+      "image": "/img/t002.png"
+    },
+    {
+      "SKU": "TECH003",
+      "name": "Sony WH-1000XM4 Headphones",
+      "description": "Premium wireless noise-cancelling headphones with industry-leading sound quality, touch controls, and up to 30 hours of battery life. Includes multipoint pairing and speak-to-chat technology.",
+      "qty": 35,
+      "price": 349.99,
+      "image": "/img/t003.png"
+    },
+    {
+      "SKU": "TECH004",
+      "name": "Sonos Five Speaker",
+      "description": "High-fidelity smart speaker with rich, room-filling sound. Features humidity resistance, stereo pairing capability, and seamless multi-room audio integration.",
+      "qty": 20,
+      "price": 549.99,
+      "image": "/img/t004.png"
+    },
+    {
+      "SKU": "TECH005",
+      "name": "Dell XPS 15 Laptop",
+      "description": "Premium Windows laptop with InfinityEdge display, powerful Intel processor, and NVIDIA graphics. Ideal for content creation and professional work with its stunning 4K display option.",
+      "qty": 15,
+      "price": 1599.99,
+      "image": "/img/t005.png"
+    },
+    {
+      "SKU": "TECH006",
+      "name": "AirPods Pro",
+      "description": "Advanced wireless earbuds with active noise cancellation, transparency mode, and spatial audio. Features customizable fit, sweat resistance, and seamless integration with Apple devices.",
+      "qty": 75,
+      "price": 249.99,
+      "image": "/img/t006.png"
+    },
+    {
+      "SKU": "TECH007",
+      "name": "Samsung Galaxy S24 Ultra",
+      "description": "Premium Android smartphone with S Pen support, advanced camera system with 200MP main sensor, and AI-powered features. Includes a large AMOLED display and all-day battery life.",
+      "qty": 40,
+      "price": 1199.99,
+      "image": "/img/t007.png"
+    }
+  ]
+}
