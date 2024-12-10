@@ -43,4 +43,6 @@ src/
 3. Run development server: `npm run dev`
 4. Build for production: `npm run build`
 
+## Deployment
+The site is deployed using [Netlify](https://Netlify.com). You can visit the live site at [https://hongjiezhang.netlify.app](https://hongjiezhang.netlify.app/).
 
