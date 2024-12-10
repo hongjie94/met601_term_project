@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "SKU": "TECH001",
+      "name": "MacBook Pro 14-inch",
+      "qty": 25,
+      "price": 1299.99
+    },
+    {
+      "SKU": "TECH002",
+      "name": "iPhone 16 Pro",
+      "qty": 50,
+      "price": 999.99
+    },
+    {
+      "SKU": "TECH003",
+      "name": "Sony WH-1000XM4 Headphones",
+      "qty": 35,
+      "price": 349.99
+    },
+    {
+      "SKU": "TECH004",
+      "name": "Sonos Five Speaker",
+      "qty": 20,
+      "price": 549.99
+    },
+    {
+      "SKU": "TECH005",
+      "name": "Dell XPS 15 Laptop",
+      "qty": 15,
+      "price": 1599.99
+    },
+    {
+      "SKU": "TECH006",
+      "name": "AirPods Pro",
+      "qty": 75,
+      "price": 249.99
+    },
+    {
+      "SKU": "TECH007",
+      "name": "Samsung Galaxy S24 Ultra",
+      "qty": 40,
+      "price": 1199.99
+    }
+  ]
+}
