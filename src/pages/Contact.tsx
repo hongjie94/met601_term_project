@@ -1,5 +1,5 @@
 import { useState, FormEvent, ChangeEvent } from 'react';
-import { Send } from 'lucide-react';
+import { Send, CheckCircle } from 'lucide-react';
 import "../styles/Contact.css"
 
 interface ContactFormData {
@@ -15,11 +15,22 @@ const Contact = () => {
     email: '',
     message: ''
   });
+  const [showConfirmation, setShowConfirmation] = useState(false);
 
-  const handleContactSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleContactSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log('Form submitted:', contactForm);
+    
+    // Show confirmation message
+    setShowConfirmation(true);
+    
+    // Reset form
     setContactForm({ name: '', email: '', message: '' });
+    
+    // Hide confirmation after 5 seconds
+    setTimeout(() => {
+      setShowConfirmation(false);
+    }, 5000);
   };
 
   const handleInputChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -34,6 +45,12 @@ const Contact = () => {
     <section id="contact" className="contact">
     <h2>Contact Me</h2>
     <div className="contact-card">
+    {showConfirmation && (
+          <div className="confirmation-alert">
+            <CheckCircle className="check-icon" />
+            <p>Thank you for your message! I'll get back to you soon.</p>
+          </div>
+        )}
       <form className="contact-form" onSubmit={handleContactSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
